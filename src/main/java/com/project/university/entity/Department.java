@@ -1,10 +1,8 @@
 package com.project.university.entity;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
+import javax.persistence.*;
+@Entity
+@Table(name = "department")
 public class Department {
     private static final long serialVersionUID = 1L;
     @Id
