@@ -2,12 +2,13 @@ package com.project.university.vm;
 
 import lombok.Data;
 
+
 @Data
-public class DepartmentVM {
+public class SubjectsVM {
      Long id;
      String nameEn;
-     String nameBn;
+     String name_bn;
      String code;
-     String updatedAt;
+     String updated_at;
      String entryDate;
 }
